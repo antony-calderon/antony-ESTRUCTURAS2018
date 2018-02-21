@@ -21,80 +21,96 @@
         <h1 align="center"><font color="#610470"><marquee>ESTRUCTURAS DE INFORMACIÓN</marquee></font></h1>
         <hr color="black">
 
-        <div class="container">               <!-- LA ETIQUETA CONTAINER ME PERMITE SEPARA DEL MARGEN IZQUIERDA EL TEXTO-->
+    <div class="container">               <!-- LA ETIQUETA CONTAINER ME PERMITE SEPARA DEL MARGEN IZQUIERDA EL TEXTO-->
+    
+       <div class="row">  <!--ABRE LO QUE SERA LA PRIMER FILA QUE CONTIENE LAS COLUMNAS-->
+
+          <div class="col-sm-5">         <!--FIJA LA PRIMER COLUMNA... EN ESTE CASO DE 9 ESPACIOS-->     
+
+                 <center><h3><font color="#610470">ESTRUCTURA DE DATOS</font></h3></center>
+
+                 <pre><p><font color="#030A78">
+                
+▸ Son aquellas que nos permiten almacenar, manipular y ordenar los datos.
+▸ Son una colección de datos cuya organización se caracteriza por las
+ funciones de acceso que se usan para almacenar y acceder elementos
+ Individuales de datos.
+▸ Es una forma de como están organizado un conjunto de datos y como se
+ encuentran interconectados.
+▸ Estas estructuras solo existen en la memoria ram, cierras el programa o
+ liberas memoria y desaparecen todos los datos.
+▸ Función principal es buscar la eficiencia tanto en memoria como tiempos
+ de ejecución.
+                 </pre></p></font>
+
+          </div>
+
+          <div class="col-sm-2">
         
+              
+              <center><h3><font color="#610470">IMPORTANCIA</font></h3></center>
+              <P align="center"><font color="#030A78">
+              la mayoria de las estructuras de datos 
+              estan inspiradas en la vida real y 
+              usa los mismos terminos la maoria
+              de las veces.
+              </font></P>
 
-        <section class="main row">            <!--ABRE LO QUE SERA LA FILA QUE CONTIENE LAS COLUMNAS-->
+         </div>
 
-        <estructura class="col-md-9">         <!--FIJA LA PRIMER COLUMNA... EN ESTE CASO DE 9 ESPACIOS-->     
+         <div class="col-sm-5">
+       
+               <center><h3><font color="#610470">OPERACIONES</font></h3></center>
 
-        <h2><font color="#610470">ESTRUCTURA DE DATOS</font></h2>
-        
-        <p><font color="#030A78">
-            
-            ▸ Son aquellas que nos permiten almacenar, manipular y ordenar los datos.
-            ▸ Son una colección de datos cuya organización se caracteriza por las
-            funciones de acceso que se usan para almacenar y acceder elementos
-            Individuales de datos.
-            ▸ Es una forma de como están organizado un conjunto de datos y como se
-            encuentran interconectados.
-            ▸ Estas estructuras solo existen en la memoria ram, cierras el programa o
-            liberas memoria y desaparecen todos los datos.
-            ▸ Función principal es buscar la eficiencia tanto en memoria como tiempos
-            de ejecución.
+               <P align="right"><font color="#030A78"><PRE>
+▸ Recorrido : Implica el acceder a cada registro una única vez aunque uno o más ítems
+ del registro sean procesados.
+▸ Búsqueda: Implica la localización de un registro caracterizado por una determinada
+ clave o también el acceso a todos los registros que cumplan una o más condiciones.
+▸ Inserción: Cuando añadimos nuevos registros a la estructura.
+▸ Eliminación: Operación de borrado de un registro de la estructura.
+▸ Ordenación: Es la operación de clasificar los registros conforme a un orden lógico
+ determinado (por ejemplo, alfabéticamente, de acuerdo a una clave de nombre, o
+ numérica, de acuerdo a alguna clave de número).
+▸ Mezcla: Es la operación de combinar dos archivos previamente ordenados en uno
+ único que también lo está.
+               </PRE></font></P>
+         </div>      
 
-        </estructura>
+       </div>     <!--CIERRA LA PRIMER FILA DE COLUMNAS-->
 
-        <importancia class="col-md-3">
-            
+    </div>    <!--CIERRE DE LA ETIQUETA CONTAINER-->
 
-         </p></font>
 
-         <h2><font color="#610470">IMPORTANCIA</font></h2>
 
-         <P align="center"><font color="#030A78">
-            la mayoria de las estructuras de datos 
-            estan inspiradas en la vida real y 
-            usa los mismos terminos la maoria
-            de las veces.
+
+<div class="container">       <!--ABRE EL CONTAINER PARA LAS SIGUIENTES COLUMNAS-->
+  <div class="row">           <!--ABRE LA SIGUIENTE FILA-->
+    <div class="col-sm-12">   <!--ABRE LA COLUMNA-->
+
+      <br><br><br>
+
+        <center><H2><font color="#610470">TIPOS DE ESTRUCTURAS</font></H2></center>
+
+        <P><font color="#030A78">
+▸ Primitivas
+
+▸ Son primitivas aquellas que no están compuestas por otras
+ estructuras de datos por ejemplo, enteros, booleanos y
+ caracteres.
+
+▸ No Primitivas
+
+▸ Estructuras de datos se pueden construir de una o mas
+ primitivas. Las estructuras de datos simples que
+ consideramos se construyen a partir de estructuras primitivas
+ y son: cadenas, arreglos y registros.
         </font></P>
 
-        </importancia>
-       </section>                              <!--CIERRA LA PRIMER FILA DE COLUMNAS-->
+    </div>   <!--CIERRA COLUMNA-->
+  </div>    <!-- CIERRA FILA-->
+</div>   <!-- CIERRA EL CONTAINER-->
 
-
-        <h2><font color="#610470">OPERACIONES</font></h2>
-
-        <P align="right"><font color="#030A78"><PRE>
-            ▸ Recorrido : Implica el acceder a cada registro una única vez aunque uno o más ítems
-              del registro sean procesados.
-            ▸ Búsqueda: Implica la localización de un registro caracterizado por una determinada
-              clave o también el acceso a todos los registros que cumplan una o más condiciones.
-            ▸ Inserción: Cuando añadimos nuevos registros a la estructura.
-            ▸ Eliminación: Operación de borrado de un registro de la estructura.
-            ▸ Ordenación: Es la operación de clasificar los registros conforme a un orden lógico
-              determinado (por ejemplo, alfabéticamente, de acuerdo a una clave de nombre, o
-              numérica, de acuerdo a alguna clave de número).
-            ▸ Mezcla: Es la operación de combinar dos archivos previamente ordenados en uno
-              único que también lo está.
-        </PRE></font></P>
-
-        <H2><font color="#610470">TIPOS DE ESTRUCTURAS</font></H2>
-
-        <P><font color="#030A78"><PRE>
-                ▸ Primitivas
-
-                 ▸ Son primitivas aquellas que no están compuestas por otras
-                   estructuras de datos por ejemplo, enteros, booleanos y
-                   caracteres.
-
-                ▸ No Primitivas
-
-                 ▸ Estructuras de datos se pueden construir de una o mas
-                   primitivas. Las estructuras de datos simples que
-                   consideramos se construyen a partir de estructuras primitivas
-                   y son: cadenas, arreglos y registros.
-        </PRE></font></P>
 
         <H2><font color="#610470">LINEALES Y NO LINEALES</font></H2>
 
@@ -154,7 +170,7 @@
                     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
                     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
-                  </div>            <!--CIERRE DE LA ETIQUETA CONTAINER-->
+                  
 
 
 

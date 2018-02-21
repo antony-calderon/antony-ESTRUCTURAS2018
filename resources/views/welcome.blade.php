@@ -1,6 +1,12 @@
 <!doctype html>
 <html lang="{{ app()->getLocale() }}">
     <head>
+      
+
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
+
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -9,12 +15,15 @@
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
+
+
 <body bgcolor="#212F3D">
         <h1 align="center"><font color="white"><marquee>ESTRUCTURAS DE INFORMACIÓN</marquee></font></h1>
         <hr>
         <h2><font color="#BDC3C7">ESTRUCTURA DE DATOS</font></h2>
         
-        <p><font color="white"><pre>
+        <p><font color="blue"><pre>
+            <div class="container">
             ▸ Son aquellas que nos permiten almacenar, manipular y ordenar los datos.
             ▸ Son una colección de datos cuya organización se caracteriza por las
             funciones de acceso que se usan para almacenar y acceder elementos
@@ -25,6 +34,8 @@
             liberas memoria y desaparecen todos los datos.
             ▸ Función principal es buscar la eficiencia tanto en memoria como tiempos
             de ejecución.
+            </div>
+
          </p></font></pre>
 
          <h2><font color="#BDC3C7">IMPORTANCIA</font></h2>
@@ -120,6 +131,16 @@
                      aumentar o disminuir en tiempo de ejecución.(en
                      tiempo de ejecución)..
                     </PRE></font></P>
+
+
+
+                    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+                    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+                    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+
+
     
 </body>
 </html>

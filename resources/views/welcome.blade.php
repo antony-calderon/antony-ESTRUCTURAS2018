@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="{{ app()->getLocale() }}">
     <head>
-      
+
 
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
@@ -9,7 +9,7 @@
 
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1">  
 
         <title>Laravel</title>
 
@@ -18,12 +18,20 @@
 
 
 <body bgcolor="#212F3D">
-        <h1 align="center"><font color="white"><marquee>ESTRUCTURAS DE INFORMACIÓN</marquee></font></h1>
-        <hr>
-        <h2><font color="#BDC3C7">ESTRUCTURA DE DATOS</font></h2>
+        <h1 align="center"><font color="#610470"><marquee>ESTRUCTURAS DE INFORMACIÓN</marquee></font></h1>
+        <hr color="black">
+
+        <div class="container">               <!-- LA ETIQUETA CONTAINER ME PERMITE SEPARA DEL MARGEN IZQUIERDA EL TEXTO-->
         
-        <p><font color="blue"><pre>
-            <div class="container">
+
+        <section class="main row">            <!--ABRE LO QUE SERA LA FILA QUE CONTIENE LAS COLUMNAS-->
+
+        <estructura class="col-md-9">         <!--FIJA LA PRIMER COLUMNA... EN ESTE CASO DE 9 ESPACIOS-->     
+
+        <h2><font color="#610470">ESTRUCTURA DE DATOS</font></h2>
+        
+        <p><font color="#030A78">
+            
             ▸ Son aquellas que nos permiten almacenar, manipular y ordenar los datos.
             ▸ Son una colección de datos cuya organización se caracteriza por las
             funciones de acceso que se usan para almacenar y acceder elementos
@@ -34,22 +42,30 @@
             liberas memoria y desaparecen todos los datos.
             ▸ Función principal es buscar la eficiencia tanto en memoria como tiempos
             de ejecución.
-            </div>
 
-         </p></font></pre>
+        </estructura>
 
-         <h2><font color="#BDC3C7">IMPORTANCIA</font></h2>
+        <importancia class="col-md-3">
+            
 
-         <P align="center"><font color="white"><pre>
+         </p></font>
+
+         <h2><font color="#610470">IMPORTANCIA</font></h2>
+
+         <P align="center"><font color="#030A78">
             la mayoria de las estructuras de datos 
             estan inspiradas en la vida real y 
             usa los mismos terminos la maoria
             de las veces.
-        </pre></font></P>
+        </font></P>
 
-        <h2><font color="#BDC3C7">OPERACIONES</font></h2>
+        </importancia>
+       </section>                              <!--CIERRA LA PRIMER FILA DE COLUMNAS-->
 
-        <P align="right"><font color="white"><PRE>
+
+        <h2><font color="#610470">OPERACIONES</font></h2>
+
+        <P align="right"><font color="#030A78"><PRE>
             ▸ Recorrido : Implica el acceder a cada registro una única vez aunque uno o más ítems
               del registro sean procesados.
             ▸ Búsqueda: Implica la localización de un registro caracterizado por una determinada
@@ -63,9 +79,9 @@
               único que también lo está.
         </PRE></font></P>
 
-        <H2><font color="#BDC3C7">TIPOS DE ESTRUCTURAS</font></H2>
+        <H2><font color="#610470">TIPOS DE ESTRUCTURAS</font></H2>
 
-        <P><font color="white"><PRE>
+        <P><font color="#030A78"><PRE>
                 ▸ Primitivas
 
                  ▸ Son primitivas aquellas que no están compuestas por otras
@@ -80,9 +96,9 @@
                    y son: cadenas, arreglos y registros.
         </PRE></font></P>
 
-        <H2><font color="#BDC3C7">LINEALES Y NO LINEALES</font></H2>
+        <H2><font color="#610470">LINEALES Y NO LINEALES</font></H2>
 
-        <P><font color="white"><PRE> 
+        <P><font color="#030A78"><PRE> 
             Lineales:
 
                 ▸ Derivados del concepto de secuencia (secuencias es un conjuntos de elementos entre
@@ -116,10 +132,10 @@
                      ni bucles; existe una sola arista entre cualquier par de nodos.
         </PRE></font></P>
 
-        <H2><font color="#BDC3C7">PUEDEN SER CLASIFICADAS EN:</font></H2>
-        <H3><font color="#BDC3C7">ESTATICAS Y DINAMICAS</font></H3>
+        <H2><font color="#610470">PUEDEN SER CLASIFICADAS EN:</font></H2>
+        <H3><font color="#610470">ESTATICAS Y DINAMICAS</font></H3>
 
-        <P><font color="white"><PRE>
+        <P><font color="#030A78"><PRE>
             ▸ Estáticas
 
                    ▸ Son aquellas en las que se asigna una cantidad fija de
@@ -137,6 +153,8 @@
                     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
                     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
                     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+                  </div>            <!--CIERRE DE LA ETIQUETA CONTAINER-->
 
 
 

@@ -29,7 +29,7 @@
 
                  <center><h3><font color="#610470">ESTRUCTURA DE DATOS</font></h3></center>
 
-                 <pre><p><font color="#030A78">
+                 <pre><p><font color="black">
                 
 ▸ Son aquellas que nos permiten almacenar, manipular y ordenar los datos.
 ▸ Son una colección de datos cuya organización se caracteriza por las
@@ -49,7 +49,7 @@
         
               
               <center><h3><font color="#610470">IMPORTANCIA</font></h3></center>
-              <P align="center"><font color="#030A78">
+              <P align="center"><font color="black">
               la mayoria de las estructuras de datos 
               estan inspiradas en la vida real y 
               usa los mismos terminos la maoria
@@ -62,7 +62,7 @@
        
                <center><h3><font color="#610470">OPERACIONES</font></h3></center>
 
-               <P align="right"><font color="#030A78"><PRE>
+               <P align="right"><font color="black"><PRE>
 ▸ Recorrido : Implica el acceder a cada registro una única vez aunque uno o más ítems
  del registro sean procesados.
 ▸ Búsqueda: Implica la localización de un registro caracterizado por una determinada
@@ -92,7 +92,7 @@
 
         <center><H2><font color="#610470">TIPOS DE ESTRUCTURAS</font></H2></center>
 
-        <P><font color="#030A78">
+        <P><font color="black">
 ▸ Primitivas
 
 ▸ Son primitivas aquellas que no están compuestas por otras

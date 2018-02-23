@@ -2,6 +2,7 @@
 <html lang="{{ app()->getLocale() }}">
     <head>
 
+      
 
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
@@ -17,9 +18,10 @@
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
 
 
-<body bgcolor="#212F3D">
-        <h1 align="center"><font color="#610470"><marquee>ESTRUCTURAS DE INFORMACIÓN</marquee></font></h1>
-        <hr color="black">
+<body class="bg-dark">
+
+        <div class="p-3 mb-2 bg-dark text-white"><h1 align="center"><marquee>ESTRUCTURAS DE INFORMACIÓN</marquee></h1></div>
+        <hr color="white">
 
     <div class="container">               <!-- LA ETIQUETA CONTAINER ME PERMITE SEPARA DEL MARGEN IZQUIERDA EL TEXTO-->
     
@@ -27,10 +29,10 @@
 
           <div class="col-sm-5">         <!--FIJA LA PRIMER COLUMNA... EN ESTE CASO DE 9 ESPACIOS-->     
 
-                 <center><h3><font color="#610470">ESTRUCTURA DE DATOS</font></h3></center>
+                 <center><h3><font color="white">ESTRUCTURA DE DATOS</font></h3></center><br>
+                 
 
-                 <pre><p><font color="black">
-                
+                 <pre><p><div class="p-3 mb-2 bg-success text-white">
 ▸ Son aquellas que nos permiten almacenar, manipular y ordenar los datos.
 ▸ Son una colección de datos cuya organización se caracteriza por las
  funciones de acceso que se usan para almacenar y acceder elementos
@@ -41,28 +43,30 @@
  liberas memoria y desaparecen todos los datos.
 ▸ Función principal es buscar la eficiencia tanto en memoria como tiempos
  de ejecución.
-                 </pre></p></font>
+                 </div></pre></p>
+                 
 
           </div>
 
           <div class="col-sm-2">
         
               
-              <center><h3><font color="#610470">IMPORTANCIA</font></h3></center>
-              <P align="center"><font color="black">
+              <center><h3><font color="white">IMPORTANCIA</font></h3></center><br>
+              <P align="center"><div class="p-3 mb-2 bg-danger text-white"><br>
               la mayoria de las estructuras de datos 
               estan inspiradas en la vida real y 
-              usa los mismos terminos la maoria
+              usa los mismos terminos la mayoria
               de las veces.
-              </font></P>
+              </font></P></div>
+
 
          </div>
 
          <div class="col-sm-5">
        
-               <center><h3><font color="#610470">OPERACIONES</font></h3></center>
+               <center><h3><font color="white">OPERACIONES</font></h3></center><br>
 
-               <P align="right"><font color="black"><PRE>
+               <pre><P><div class="p-3 mb-2 bg-warning text-white">
 ▸ Recorrido : Implica el acceder a cada registro una única vez aunque uno o más ítems
  del registro sean procesados.
 ▸ Búsqueda: Implica la localización de un registro caracterizado por una determinada
@@ -74,7 +78,7 @@
  numérica, de acuerdo a alguna clave de número).
 ▸ Mezcla: Es la operación de combinar dos archivos previamente ordenados en uno
  único que también lo está.
-               </PRE></font></P>
+               </pre></P>
          </div>      
 
        </div>     <!--CIERRA LA PRIMER FILA DE COLUMNAS-->

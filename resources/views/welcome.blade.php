@@ -20,7 +20,7 @@
 
 <body class="bg-dark">
 
-        <div class="p-3 mb-2 bg-dark text-white"><h1 align="center"><marquee>ESTRUCTURAS DE INFORMACIÓN</marquee></h1></div>
+        <div class="p-3 mb-2 bg-dark text-white"><h1 align="center"><marquee width=50%  height=40>ESTRUCTURAS DE INFORMACIÓN</marquee></h1></div>
         <hr color="white">
 
     <div class="container">               <!-- LA ETIQUETA CONTAINER ME PERMITE SEPARA DEL MARGEN IZQUIERDA EL TEXTO-->

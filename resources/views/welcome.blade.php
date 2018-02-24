@@ -94,7 +94,7 @@
 
       <br><br><br>
 
-        <center><H2><font color="#610470">TIPOS DE ESTRUCTURAS</font></H2></center>
+        <center><H2><font color=white>TIPOS DE ESTRUCTURAS</font></H2></center>
 
         <P><font color="black">
 ▸ Primitivas
@@ -116,10 +116,13 @@
 </div>   <!-- CIERRA EL CONTAINER-->
 
 
-        <H2><font color="#610470">LINEALES Y NO LINEALES</font></H2>
+        <H2><font color="white">LINEALES Y NO LINEALES</font></H2>
 
-        <P><font color="#030A78"><PRE> 
-            Lineales:
+        <P><font color="white "><PRE>
+        
+        <div class="row"> 
+            <div class="col-sm-6">
+              Lineales:
 
                 ▸ Derivados del concepto de secuencia (secuencias es un conjuntos de elementos entre
                   los que se establece una relación de predecesor y sucesor).
@@ -138,6 +141,9 @@
                  • Colas: se añade por el final y se borra y consulta por el principio
                  • Listas: las tres operaciones se realizan sobre una posición privilegiada de la secuencia, la cual puede
                    desplazarse.
+                 </div>
+
+                 <div class="col-sm-6">
 
             No Lineales:
 
@@ -150,12 +156,13 @@
                      une un punto a otro.
                    ▸ Un árbol es un grafo conexo, simple y aciclico. Un árbol no contiene ni ciclos
                      ni bucles; existe una sola arista entre cualquier par de nodos.
+                   </div>
         </PRE></font></P>
 
-        <H2><font color="#610470">PUEDEN SER CLASIFICADAS EN:</font></H2>
-        <H3><font color="#610470">ESTATICAS Y DINAMICAS</font></H3>
+        <H2><font color="white">PUEDEN SER CLASIFICADAS EN:</font></H2>
+        <H3><font color="white">ESTATICAS Y DINAMICAS</font></H3>
 
-        <P><font color="#030A78"><PRE>
+        <P><font color="white"><PRE>
             ▸ Estáticas
 
                    ▸ Son aquellas en las que se asigna una cantidad fija de
